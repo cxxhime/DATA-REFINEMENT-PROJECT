@@ -21,9 +21,6 @@ __pycache__/
 .Spotlight-V100
 .Trashes
 
-# Données sensibles (si tu as des données confidentielles)
-data/raw/*.csv
-data/raw/*.xlsx
 
 # IDE
 .vscode/
