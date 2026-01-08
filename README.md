@@ -40,18 +40,18 @@ Projet d'analyse de données réalisé dans le cadre de ma formation en **Bachel
 DATA-REFINEMENT-PROJECT/
 │
 ├── data/
-│   ├── raw/                          # Données brutes du dataset Kaggle
-│   └── processed/                    # Données nettoyées
+│   ├── raw/                          
+│   └── processed/                  
 │
 ├── notebooks/
-│   ├── 01-Exploration.ipynb         # 🔍 Exploration initiale des données
-│   ├── 02-Cleaning.ipynb            # 🧹 Nettoyage et préparation
-│   └── 03-Transformation.ipynb      # 📊 Analyse et visualisations
+│   ├── 01-Exploration.ipynb         
+│   ├── 02-Cleaning.ipynb            
+│   └── 03-Transformation.ipynb    
 │
-├── env_cafe_sales/                   # Environnement virtuel (non versionné)
-├── requirements.txt                  # Dépendances Python
-├── .gitignore                        # Fichiers à ignorer
-└── README.md                         # Ce fichier
+├── env_cafe_sales/                   
+├── requirements.txt                 
+├── .gitignore                        
+└── README.md                       
 ```
 
 ---
@@ -69,29 +69,6 @@ DATA-REFINEMENT-PROJECT/
 
 ---
 
-## Installation et utilisation
-
-### Prérequis
-- Python 3.8 ou supérieur
-- pip
-- Git
-
-### 1️Cloner le repository
-```bash
-git clone https://github.com/TON-USERNAME/cafe-sales-analysis.git
-cd cafe-sales-analysis
-```
-
-## 📈 Exemples de visualisations
-
-Le projet inclut plusieurs visualisations professionnelles :
-
-- 📊 **Barplots** : Nombre de ventes et revenus par produit
-- 📦 **Boxplots** : Distribution des quantités et montants dépensés
-- 📉 **Line plots** : Évolution du chiffre d'affaires dans le temps
-- 🎨 Utilisation de palettes de couleurs modernes et lisibles
-
----
 
 ## 🔄 Workflow de nettoyage des données
 
@@ -101,17 +78,14 @@ Le projet inclut plusieurs visualisations professionnelles :
    - Incohérences de format
    - Types de données incorrects
 
-2. **Nettoyage**
+2. **Nettoyage & Transformation**
    - Gestion des NaN (suppression ou imputation intelligente)
    - Standardisation des formats de dates
    - Conversion des types de données
    - Validation des données
-
-3. **Transformation**
    - Création de nouvelles features
    - Agrégations et groupements
    - Préparation pour la visualisation
-
 
 
 ## Licence
@@ -123,7 +97,6 @@ Ce projet est à usage éducatif dans le cadre de ma formation.
 
 - Dataset fourni par [Ahmed Mohamed](https://www.kaggle.com/ahmedmohamed2003) sur Kaggle
 - Communauté Kaggle pour les datasets d'entraînement
-- Ma formation en Bachelor Data & IA
 
 
 ## Contact
